@@ -73,9 +73,9 @@
 
 <b>9. เพิ่ม Interceptor http axios</b>
 
-10.1 Add header key CMEXAM = “request” ตอน Request http
+10.1 Add header key CMReq = “request” ตอน Request http
 
-10.2 Add header key CMEXAM = “response” ตอน Response http
+10.2 Add header key CMERes = “response” ตอน Response http
 
 <b>11. กำหนดค่าเริ่มต้น Route path เมื่อพิมพ์ url path ผิด หรือไม่มีอยู่ใน route ที่กำหนด ให้ทำเงื่อนไขตามนี้</b>
 
