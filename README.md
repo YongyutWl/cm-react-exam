@@ -8,7 +8,7 @@
   - react hook form
   - yup
 
-<b>2. สร้าง Route ขึ้นมา 3 Page</b>
+<b>2. สร้าง Route ขึ้นมา 4 Page</b>
  - Login Page
  - Home Page
  - Detail Page
