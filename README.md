@@ -62,6 +62,7 @@
 <b>7. หน้า Detail Page</b>
 
 7.1 Get id product จาก params และ fetch ข้อมูลสินค้า GET:https://dummyjson.com/products/:id   
+
 7.2 แสดงข้อมูลสินค้า ตามสวยงาม
   - Images 150*150
   - Title
@@ -72,9 +73,9 @@
 
 <b>9. เพิ่ม Interceptor http axios</b>
 
-10.1 Add header key CMEXAM “request” ตอน Request http
+10.1 Add header key CMEXAM = “request” ตอน Request http
 
-10.2 ปริ้นข้อความ “response” ตอน Response http
+10.2 Add header key CMEXAM = “response” ตอน Response http
 
 <b>11. กำหนดค่าเริ่มต้น Route path เมื่อพิมพ์ url path ผิด หรือไม่มีอยู่ใน route ที่กำหนด ให้ทำเงื่อนไขตามนี้</b>
 
