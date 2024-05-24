@@ -57,7 +57,6 @@
   - ราคามากว่า 1000 (กรองสินค้าที่มีราคา 1000 ขึ้นไป และมีส่วนลด%) [ใช้ function Filter Javascript]
   - แสดงราคารวมต่อชิ้น (เพิ่ม Column ขึ้นมาอีก 1 Column สำหรับแสดง ราคารวมต่อชิ้น) [ใช้ function Map Javascript เพิ่ม key totalPrice เข้าไปใน interface Product เพื่อแสดงใน column]
   - เรียงเรตติ้ง (เรียง rating สินค้าแบบ desc และ price แบบ asc)  [ใช้  function Sort Javascript]
-  - แสดงราคารวมทั้งหมด (คำนวนราคาสินค้าทั้งหมด ของ array สินค้า) ** เพิ่ม Footer Row สำหรับแสดง ราคารวมทั้งหมด [ใช้ function reduce Javascript]
  
 <b>7. หน้า Detail Page</b>
 
@@ -87,19 +86,16 @@
 
 12.1 เปลี่ยน UI หน้า Login Page เป็น material ui ตามความสวยงาม
 
-<b>13 ติดตั้ง Redux Toolkit </b>
+<b>13. ติดตั้ง tailwindcss </b>
+13.1 ปรับปรุง UI หน้า Home Page โดยใช้ tailwind css ตามความสวยงาม
 
-13.1 สร้าง authStore
+<b>14 ติดตั้ง Redux Toolkit </b>
 
-13.2 Init default value email = bb@cc.dd & password = 5678
+14.1 สร้าง productSlice สำหรับเก็บข้อมูล product หน้า Home Page และเพิ่ม Logic บันทึกข้อมูลเข้า redux
 
-13.3 เปลี่ยนการตรวจความถูกต้องในหน้า Login Page ให้ดึงข้อมูลใน authStore มาตรวจสอบ Email & Password กับ Input form ที่กรอกเอง
+14.2 สร้าง Summary Page 
 
-<b>14. Create react hook</b>
-
-14.1 สร้างชื่อ hook useMultiply Logic ภายใน รับค่าใดๆ เข้ามาแล้วคูณด้วย 10 และ Return ออกไป
-
-14.2 log ผลลัพพ์หน้า Home Page
+14.2 แสดงราคารวมทั้งหมด (คำนวนราคาสินค้าทั้งหมด ของ array สินค้าดึงมาจาก productSlice) [ใช้ function reduce Javascript]
 
 <b>15. แสดงตัวอย่างการใช้ useMemo และ useCallback ในหน้า Home Page</b>
  
