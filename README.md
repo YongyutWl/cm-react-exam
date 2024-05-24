@@ -49,6 +49,7 @@
   - Price
   - Stock
   - ปุ่ม Detail
+
 4.4 เมือกดปุ่ม Detail ให้ส่ง id product ผ่าน url params ไปหน้า Detail Page
  
 <b>5. เพิ่ม input ช่องค้นหาข้อมูลสินค้า ค้นหาชื่อสินค้าแบบ Debound Time(1 วินาที) และ contain string ในหน้า Home Page</b>
