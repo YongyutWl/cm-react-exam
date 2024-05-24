@@ -73,31 +73,37 @@
 
 <b>9. เพิ่ม Interceptor http axios</b>
 
-10.1 Add header key CMReq = “request” ตอน Request http
+9.1 Add header key CMReq = “request” ตอน Request http
 
-10.2 Add header key CMERes = “response” ตอน Response http
+9.2 Add header key CMERes = “response” ตอน Response http
 
-<b>11. กำหนดค่าเริ่มต้น Route path เมื่อพิมพ์ url path ผิด หรือไม่มีอยู่ใน route ที่กำหนด ให้ทำเงื่อนไขตามนี้</b>
 
-11.1 ถ้า ยังไม่ได้ Login ให้ Redirect มาหน้า Login Page
+<b>10. กำหนดค่าเริ่มต้น Route path เมื่อพิมพ์ url path ผิด หรือไม่มีอยู่ใน route ที่กำหนด ให้ทำเงื่อนไขตามนี้</b>
 
-11.2 ถ้า Login แล้วให้ Redirect มาหน้า Home Page
+10.1 ถ้า ยังไม่ได้ Login ให้ Redirect มาหน้า Login Page
 
-<b>12. ติดตั้ง material ui theme https://mui.com/</b>
+10.2 ถ้า Login แล้วให้ Redirect มาหน้า Home Page
 
-12.1 เปลี่ยน UI หน้า Login Page เป็น material ui ตามความสวยงาม
 
-<b>13. ติดตั้ง Tailwindcss </b>
+<b>11. ติดตั้ง material ui theme https://mui.com/</b>
 
-13.1 ปรับปรุง UI หน้า Home Page โดยใช้ tailwind css ตามความสวยงาม
+11.1 เปลี่ยน UI หน้า Login Page เป็น material ui ตามความสวยงาม
 
-<b>14 ติดตั้ง Redux Toolkit </b>
 
-14.1 สร้าง productSlice สำหรับเก็บข้อมูล product หน้า Home Page และเพิ่ม Logic ในหน้า Home Page บันทึกข้อมูลเข้า store
+<b>12. ติดตั้ง Tailwindcss </b>
 
-<b>15 สร้าง Summary Page </b>
+12.1 ปรับปรุง UI หน้า Home Page โดยใช้ tailwind css ตามความสวยงาม
 
-15.1 แสดงราคารวมทั้งหมด (คำนวนราคาสินค้าทั้งหมด ของ array สินค้า ให้ดึงมาจาก productSlice) [ใช้ function reduce Javascript]
 
-<b>16. แสดงตัวอย่างการใช้ useMemo และ useCallback ในหน้า Home Page</b>
+<b>13. ติดตั้ง Redux Toolkit </b>
+
+13.1 สร้าง productSlice สำหรับเก็บข้อมูล product หน้า Home Page และเพิ่ม Logic ในหน้า Home Page บันทึกข้อมูลเข้า store
+
+
+<b>14. สร้าง Summary Page </b>
+
+14.1 แสดงราคารวมทั้งหมด (คำนวนราคาสินค้าทั้งหมด ของ array สินค้า ให้ดึงมาจาก productSlice) [ใช้ function reduce Javascript]
+
+
+<b>15. แสดงตัวอย่างการใช้ useMemo และ useCallback ในหน้า Home Page</b>
  
