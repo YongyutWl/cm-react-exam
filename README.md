@@ -72,7 +72,7 @@
   
 <b>8. ปริ้นข้อความใน Life Cycle ต่างๆ ของ ReactJS ในหน้า Detail Page </b>
 
-<b>9. เพิ่ม Interceptor http axios</b>
+<b>9. เพิ่ม Interceptor http axios นำมาใช้กับหน้า Home Page</b>
 
 9.1 Add header key CMReq = “request” ตอน Request http
 
