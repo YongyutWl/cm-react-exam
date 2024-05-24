@@ -39,7 +39,7 @@
 
 <b>4. หน้า Home Page มีเงื่อนไขตามนี้</b>
 
-4.1 fetch ข้อมูลโดยใช้ axios GET: https://dummyjson.com/products
+4.1 fetch ข้อมูลโดยใช้ axios GET: https://dummyjson.com/products เขียนแบบ async await
 
 4.2 แปลงข้อมูล JSON ข้อ 4.1 เป็น Interface (ชื่อ Product) 
 
