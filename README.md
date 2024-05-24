@@ -12,6 +12,7 @@
  - Login Page
  - Home Page
  - Detail Page
+ - Summary Page
 
 2.1 ค่าเริ่มต้น Redirect มาหน้า Login Page
 
@@ -86,16 +87,17 @@
 
 12.1 เปลี่ยน UI หน้า Login Page เป็น material ui ตามความสวยงาม
 
-<b>13. ติดตั้ง tailwindcss </b>
+<b>13. ติดตั้ง Tailwindcss </b>
+
 13.1 ปรับปรุง UI หน้า Home Page โดยใช้ tailwind css ตามความสวยงาม
 
 <b>14 ติดตั้ง Redux Toolkit </b>
 
-14.1 สร้าง productSlice สำหรับเก็บข้อมูล product หน้า Home Page และเพิ่ม Logic บันทึกข้อมูลเข้า redux
+14.1 สร้าง productSlice สำหรับเก็บข้อมูล product หน้า Home Page และเพิ่ม Logic ในหน้า Home Page บันทึกข้อมูลเข้า store
 
-14.2 สร้าง Summary Page 
+<b>15 สร้าง Summary Page </b>
 
-14.2 แสดงราคารวมทั้งหมด (คำนวนราคาสินค้าทั้งหมด ของ array สินค้าดึงมาจาก productSlice) [ใช้ function reduce Javascript]
+15.1 แสดงราคารวมทั้งหมด (คำนวนราคาสินค้าทั้งหมด ของ array สินค้า ให้ดึงมาจาก productSlice) [ใช้ function reduce Javascript]
 
-<b>15. แสดงตัวอย่างการใช้ useMemo และ useCallback ในหน้า Home Page</b>
+<b>16. แสดงตัวอย่างการใช้ useMemo และ useCallback ในหน้า Home Page</b>
  
