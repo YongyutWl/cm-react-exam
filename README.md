@@ -56,7 +56,7 @@
 
 <b>6. เพิ่มปุ่ม Dropdown 5 เมนู ในหน้า Home Page</b>
   - ทั้งหมด (แสดงสินค้าทั้งหมด)
-  - ราคามากว่า 1000 (กรองสินค้าที่มีราคา 1000 ขึ้นไป และมี %ส่วนลด มากกว่า 0) [ใช้ function Filter Javascript]
+  - กรองราคามากว่า 1000 (กรองสินค้าที่มีราคา 1000 ขึ้นไป และมี %ส่วนลด มากกว่า 0) [ใช้ function Filter Javascript]
   - แสดงราคารวมต่อชิ้น (เพิ่ม Column ขึ้นมาอีก 1 Column สำหรับแสดง ราคารวมต่อชิ้น) [ใช้ function Map Javascript เพิ่ม key totalPrice เข้าไปใน interface Product เพื่อแสดงใน column]
   - เรียงเรตติ้ง (เรียง rating สินค้าแบบ desc และ price แบบ asc)  [ใช้  function Sort Javascript]
  
