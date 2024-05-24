@@ -44,7 +44,7 @@
 4.2 แปลงข้อมูล JSON ข้อ 4.1 เป็น Interface (ชื่อ Product) 
 
 4.3 แสดงข้อมูลที่ fetch ได้เป็น Table มี Column ดังนี้
-  - Thumnal แสดงรูป 30px x 30px
+  - Thumbnail แสดงรูป 30px x 30px
   - Title
   - Price
   - Stock
