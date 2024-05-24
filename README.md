@@ -18,10 +18,15 @@
 <b>3. หน้า Login Page มี UI ดังนี้</b>
 
 3.1 ช่อง input Email type="text"
+
 3.2 ช่อง input Password type="password"
+
 3.3 ปุ่มเข้าสู่ระบบ
+
 3.4 Implement react-hook-form กับ Login Page
+
 3.5 เพิ่ม Validation Yup
+
 - ตรวจสอบ Format Email โดยใช้ Regex
 - ตรวจสอบความรหัสผ่าน ความยาว 8 ตัวขึ้นไป
   
