@@ -31,13 +31,17 @@
 - ตรวจสอบความรหัสผ่าน ความยาว 8 ตัวขึ้นไป
   
 3.5 เมื่อกดปุ่มเข้าสู่ระบบ ตรวจสอบ Email = aa@bb.cc และ Password = 12345678 
-         ถ้าถูกต้อง Redirect ไปหน้า Home Page
-         ถ้าผิดให้ Alert ข้อความ "Email or password incorrect"
+
+        - ถ้าถูกต้อง Redirect ไปหน้า Home Page
+         
+        - ถ้าผิดให้ Alert ข้อความ "Email or password incorrect"
 
 <b>4. หน้า Home Page มีเงื่อนไขตามนี้</b>
 
 4.1 fetch ข้อมูลโดยใช้ axios GET: https://dummyjson.com/products
+
 4.2 แปลงข้อมูล JSON ข้อ 4.1 เป็น Interface (ชื่อ Product) 
+
 4.3 แสดงข้อมูลที่ fetch ได้เป็น Table มี Column ดังนี้
   - Thumnal แสดงรูป 30px x 30px
   - Title
